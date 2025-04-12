@@ -185,7 +185,7 @@ status open
 
 
 \backslash
-fancyhead[L]{Desenvolvimento do Projeto de Engenharia - Descrição do Desafio tecnológico - Proposta}
+fancyhead[L]{Desafio tecnológico - Desenvolver Aplicativo/Site do Curso de Engenharia de Petróleo da UENF}
 \end_layout
 
 \begin_layout Plain Layout
@@ -208,7 +208,9 @@ thepage}
 
 
 \backslash
-fancyfoot[L]{NomeProfessor-Cliente}
+fancyfoot[L]{Cliente:
+ Coordenador do Curso - Prof.
+ André Duarte Bueno}
 \end_layout
 
 \begin_layout Plain Layout
@@ -265,22 +267,13 @@ today ele vai colocar data no material impresso
 \end_layout
 
 \begin_layout Standard
-Apresenta-se aqui a proposta de desenvolvimento de um projeto de engenharia que visa ...
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-descrição em um parágrafo
-\end_layout
-
-\end_inset
-
-
+Apresenta-se aqui a proposta de desenvolvimento de um projeto de engenharia que visa a construção de um novo site para o Curso de Engenharia de Petróleo da UENF.
+ Isto se faz necessário pois o antigo esta bastante desatualizado.
 \end_layout
 
 \begin_layout Description
 Nota:
- esta proposta tem como base a metodologia apresentada no documento 
+ Esta proposta tem como base a metodologia apresentada no documento 
 \begin_inset CommandInset href
 LatexCommand href
 name "Metodologia-Instrucoes-Etapas.pdf"
@@ -290,6 +283,9 @@ literal "false"
 \end_inset
 
 .
+ Por ser uma proposta que não esta essencialmente vinculada ao tipo de projeto tradicionalmente desenvolvido,
+ mais vinculado a solução de problemas de engenharia de petróleo,
+ partes do documento incluem textos informativos obtidos a partir do uso de IA.
 \end_layout
 
 \begin_layout Section
@@ -298,7 +294,11 @@ Título da proposta
 
 \begin_layout Itemize
 Título:
- 
+ Aplicativo de Software - Site do Curso de Engenharia de Petróleo da UENF
+\end_layout
+
+\begin_layout Itemize
+https://github.com/ldsc/Aplicativo-SiteDoCursoDeEngenhariaDePetroleo-UENF
 \end_layout
 
 \begin_layout Section
@@ -306,8 +306,10 @@ Convocação
 \end_layout
 
 \begin_layout Itemize
-[ ] Projeto da UENF [ ] Projeto do CCT [ ] Projeto do LENEP :
- nome do professor
+[] Projeto da UENF [ ] Projeto do CCT [x] Projeto do LENEP :
+ Coordenação do Curso de Graduação - Prof.
+ André D.
+ Bueno
 \end_layout
 
 \begin_layout Itemize
@@ -335,6 +337,10 @@ Atendimento obrigação?
 \end_layout
 
 \begin_layout Itemize
+[x] sim - atividades de bolsa de apoio.
+\end_layout
+
+\begin_layout Itemize
 [ ] não.
 \end_layout
 
@@ -344,83 +350,223 @@ Atendimento obrigação?
 \end_layout
 
 \begin_layout Itemize
-Título da área do conhecimento.
+Título da área do conhecimento:
  
 \end_layout
 
 \begin_deeper
-\begin_layout Description
-Dica:
- Ver áreas do conhecimento no 
-\begin_inset CommandInset href
-LatexCommand href
-name "site do CNPq"
-target "https://lattes.cnpq.br/web/dgp/arvore-do-conhecimento"
-literal "false"
-
-\end_inset
-
- ou no arquivo TabelaAreasConhecimento-Assuntos.dat.
- O projeto pode envolver várias áreas do conhecimento,
- mas deve ter como foco principal as áreas de engenharia e modelagem computacional.
+\begin_layout Itemize
+Tecnologia da Informação e Comunicação (TIC) ou Comunicação Digital.
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-Título do tema específico.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-o nome deve refletir o tema específico
+Título do tema específico:
+ 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
+\begin_deeper
 \begin_layout Itemize
-Título do sub-tema.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Informe sub-temas associados
+Desenvolvimento Web / Gestão de Conteúdo Digital / Comunicação Institucional Online.
 \end_layout
 
-\end_inset
-
-
+\end_deeper
+\begin_layout Itemize
+Título do sub-tema:
+ 
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Criação de Sites com Ferramentas No-Code/Low-Code.
+\end_layout
+
+\end_deeper
 \begin_layout Section
 Descrição do desafio tecnológico 
 \end_layout
 
 \begin_layout Itemize
-Descrição do desafio tecnológico 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-descrição da proposta sobre a ótica do problema de engenharia
+Arquitetura:
+ 
 \end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Estruturar os dados e informações do curso:
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+PPC - Projeto Pedagógico do curso
+\end_layout
+
+\begin_layout Itemize
+Grade curricular (disciplinas/turmas,
+ exigências)
+\end_layout
+
+\begin_layout Itemize
+Setores,
+ linhas de pesquisa,
+ notícias/eventos,
+ contatos/corpo docente,
+ etc.) de maneira lógica,
+ intuitiva e fácil de navegar para diferentes públicos (vestibulandos,
+ alunos atuais,
+ ex-alunos,
+ empresas,
+ comunidade acadêmica).
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Criar 
+\begin_inset Quotes eld
+\end_inset
+
+visualizações
+\begin_inset Quotes erd
+\end_inset
+
+ específicas para cada público alvo.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Design e Usabilidade (UX/UI):
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Criar um layout visualmente agradável(para PC e celular);
+ com aspecto profissional e responsivo.
+\end_layout
+
+\begin_layout Itemize
+Embora tenha restrições técnicas,
+ a opção pelo Google Sites se deve a sua facilidade de uso por alunos,
+ funcionários e professores e ao fato de não dependermos de burocracias externas.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Gestão de Conteúdo e Atualização:
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Desenvolver procedimentos para manter o site atualizado.
+\end_layout
+
+\begin_layout Itemize
+A opção pelo Google Sites se deve a sua facilidade de atualização por alunos,
+ funcionários e professores.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Otimização para Mecanismos de Busca:
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Configurar o site de forma que seja facilmente encontrado por mecanismos de busca:
+\end_layout
+
+\begin_layout Itemize
+Uso de títulos,
+ descrições e palavras-chave relevantes.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Integração e Colaboração:
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Para o desenvolvimento do site iremos criar:
+\end_layout
+
+\begin_layout Itemize
+Um projeto no github-projects para gestão das etapas de desenvolvimento (kanbam):
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset CommandInset href
+LatexCommand href
+name "Gestão do projeto no github-projects"
+target "https://github.com/orgs/ldsc/projects/7/views/1"
+literal "false"
 
 \end_inset
 
 .
 \end_layout
 
+\end_deeper
+\begin_layout Itemize
+Um repositório no GitHub para armazenar os documentos associados ao desenvolvimento do projeto (lyx/uml):
+ 
+\end_layout
+
 \begin_deeper
 \begin_layout Itemize
-Coloque aqui uma breve descrição do desafio tecnológico.
+\begin_inset CommandInset label
+LatexCommand label
+name "https://github.com/ldsc/Aplicativo-SiteDoCursoDeEngenhariaDePetroleo-UENF"
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Um usuário siteGraduacao@lenep.uenf.br que será proprietário do site e das pastas no Google Drive:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Pasta com os textos do site
 \end_layout
 
 \begin_layout Itemize
-Se necessário adicionar imagens e tabelas,
- referenciar artigos e livros,
- pode adicionar links para imagens e documentos externos.
+Pasta com dados utilizados para construir o site
+\end_layout
+
+\begin_layout Itemize
+Pasta com com imagens:
+\end_layout
+
+\begin_layout Itemize
+?link para este google drive aqui?
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+não apenas como repositório,
+ mas como ferramenta de gestão do projeto,
+ versionamento de documentação ou mesmo de algum código auxiliar (se houver),
+ facilitando a colaboração entre os membros da equipe.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Adaptação da Ferramenta:
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Explorar ao máximo as funcionalidades do Google Sites e encontrar soluções criativas para implementar requisitos específicos que podem não ser diretamente suportados pela plataforma.
 \end_layout
 
 \end_deeper
@@ -429,56 +575,64 @@ Objetivo geral
 \end_layout
 
 \begin_layout Itemize
-Breve descrição do objetivo.
- 
+Desenvolver um 
+\begin_inset Quotes eld
+\end_inset
+
+Aplicativo de Software - Site do Curso de Engenharia de Petróleo da UENF
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
-\begin_deeper
-\begin_layout Description
-Nota:
- Foco no problema de engenharia e não na solução.
- Para as disciplina de modelagem computacional relacionar com modelos computacionais associados.
-\end_layout
-
-\end_deeper
 \begin_layout Section
 Solução esperada - Tipo
 \end_layout
 
 \begin_layout Itemize
-Tipo do produto final,
- exemplo um software,
- um equipamento,
- uma metodologia.
+Site.
 \end_layout
 
-\begin_deeper
-\begin_layout Description
-Nota:
- Foco na solução a ser desenvolvida.
- Para as disciplina de modelagem computacional o produto é sempre um software ou algoritmo.
-\end_layout
-
-\end_deeper
 \begin_layout Section
 Solução esperada - Descrição
 \end_layout
 
 \begin_layout Itemize
-Breve descrição do tipo de solução esperada.
+Site totalmente funcional
+\end_layout
+
+\begin_layout Itemize
+Com visualizações específicas para:
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-Exemplo:
- descrever o tipo de solução;
- é um modelo matemático?
- é um algoritmo?
- é uma biblioteca computacional?
- é um software didático?
- é um software de engenharia?
+Alunos do segundo grau interessados em engenharia de petróleo
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+Inclui informações gerais sobre engenharia e engenharia de petróleo
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Alunos que estão cursando o curso
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Inclui informações específicas do curso,
+ regimentos,
+ modelos de documentos
+\end_layout
+
+\begin_layout Itemize
+Explicações de como proceder para realizar atividades obrigatórias do curso
+\end_layout
+
+\end_deeper
 \end_deeper
 \begin_layout Itemize
 Descreva o produto final esperado.
@@ -486,10 +640,29 @@ Descreva o produto final esperado.
 
 \begin_deeper
 \begin_layout Itemize
-Exemplo:
- o que é o produto final;
- o que ele faz;
- foco na solução a ser desenvolvida e não no problema de engenharia.
+Um site que funcione perfeitamente bem em telas grandes (PCs) e celulares (portrait e landscape).
+\end_layout
+
+\begin_layout Itemize
+Um site relativamente rápido.
+\end_layout
+
+\begin_layout Itemize
+Um site em que o usuário se identifica (aluno 2 Grau,
+ aluno do curso,
+ engenheiro) e tem acesso a informações específicas de seu interesse.
+\end_layout
+
+\begin_layout Itemize
+Um site que tem as informações 
+\begin_inset Quotes eld
+\end_inset
+
+esperadas
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \end_deeper
@@ -498,7 +671,7 @@ TRL pretendido
 \end_layout
 
 \begin_layout Itemize
-TRL = 
+TRL = 9 [produto final]
 \end_layout
 
 \begin_deeper
@@ -521,7 +694,7 @@ CRL pretendido
 \end_layout
 
 \begin_layout Itemize
-CRL = 
+CRL = 9 [produto final]
 \end_layout
 
 \begin_deeper
@@ -544,98 +717,29 @@ Informações básicas complementares
 \end_layout
 
 \begin_layout Itemize
-Coloque aqui um conjunto de informações que podem ajudar no entendimento do escopo do problema científico/tecnológico e do produto desejado.
+Temos modelos de sites antigos do curso de graduação.
 \end_layout
 
 \begin_layout Itemize
-Pode incluir links para material externo e referências bibliográficas.
+Temos o site atual [desatualizado].
 \end_layout
 
 \begin_layout Itemize
-Para adicionar referências bibliográficas adicione os dados do livro/artigo no arquivo bibliografia.bib e inclua aqui a referência (menu ou ícon inserir citação).
+Temos exemplos de sites de outros cursos de engenharia [MIT,
+ OXFORD,
+ USP,
+ UNICAMP,
+ UFSC].
 \end_layout
 
-\begin_layout Description
-Nota:
- No modelo disponibilizado no 
-\begin_inset CommandInset href
-LatexCommand href
-name "github"
-target "https://github.com/ldsc/LDSC-ProjetoEngenharia-2-Software-TituloProjeto-ModeloCompleto"
-literal "false"
-
-\end_inset
-
- temos dois diretórios para armazenar informações complementares.
- 
-\end_layout
-
-\begin_deeper
-\begin_layout Description
-MaterialAuxiliar:
- Material auxiliar ao projeto desenvolvido internamente.
-\end_layout
-
-\begin_deeper
-\begin_layout Description
-MaterialExterno:
- Material auxiliar ao projeto desenvolvido por terceiros (adicionar lista de referências na bibliografia e citar autores).
-\end_layout
-
-\end_deeper
-\end_deeper
 \begin_layout Section
 Prazo máximo para desenvolvimento da solução
 \end_layout
 
 \begin_layout Itemize
-Varia de 18 a 36 meses.
+12 meses.
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-O projeto de software é desenvolvido ao longo do 5/6 e 8 períodos do curso.
- Veja 
-\begin_inset CommandInset href
-LatexCommand href
-name "grade do curso"
-target "https://sites.google.com/view/professorandreduartebueno/ensino#h.2h95uxhiyblr"
-literal "false"
-
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Itemize
-Se o projeto for estendido pode se transformar no TCC na forma de projeto de engenharia,
- nestes casos prever 6-12 meses a mais.
-\end_layout
-
-\begin_layout Description
-Nota:
- Note que é um projeto de longo prazo e que requer muita dedicação ao longo de todos os semestres envolvidos,
- não deixe para depois imaginando que terá condições de fazer "rápido¨,
- projetos de engenharia por definição são demorados.
- 
-\end_layout
-
-\begin_layout Description
-Nota:
- Os modelos de software a serem desenvolvidos utilizam o paradigma da orientação a objetos,
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "prog-UML-blaha,prog-UML-Rumbaugh,adb-prog-livroCpp"
-literal "false"
-
-\end_inset
-
-,
- e a linguagem de programação C++ em função do baixo consumo de memória e alto desempenho.
-\end_layout
-
-\end_deeper
 \begin_layout Section
 Referências bibliográficas complementares
 \end_layout
